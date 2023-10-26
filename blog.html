@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/college-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online  Programs For 2023</h1>
+</section>
+
+<!-- blog pagr content -->
+
+<section class="blog-content">
+
+    <div class="row">
+
+        <div class="blog-left">
+            <img src="images/Graduation.jpg">
+            <h2>Our Certificate & Online  Programs For 2023</h2>
+             <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                more-or-less normal distribution of letters, as opposed to using 'Content here,
+                content here', making it look like readable English. Many desktop publishing packages and web page 
+                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will 
+                uncover many web sites still in their infancy. Various versions have evolved over the years,
+                sometimes by accident, sometimes on purpose (injected humour and the like).
+             </p>
+                <br>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                    page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                    more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English. Many desktop publishing packages and web page 
+                    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will 
+                    uncover many web sites still in their infancy. Various versions have evolved over the years,
+                    sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+                <br>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                    page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                    more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English. Many desktop publishing packages and web page 
+                    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will 
+                    uncover many web sites still in their infancy. Various versions have evolved over the years,
+                    sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+                <br>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                    page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+                    more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English. Many desktop publishing packages and web page 
+                    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will 
+                    uncover many web sites still in their infancy. Various versions have evolved over the years,
+                    sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name"><br>
+                        <input type="email" placeholder="Enter Email"><br>
+                        <textarea rows="5" placeholder="Your Comment"></textarea><br>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </div>
+
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy <br>text ever since the 1500s,++++when an unknown 
+        printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>            
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <p>Made with <i class="fa-regular fa-heart"></i> by the Largest University
+            </p>
+
+        </div>
+</section>
+
+
+<!-----Javascript for Toggle Menu------>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";    
+
+    }
+</script>  
+
+
+</body>
+</html>
